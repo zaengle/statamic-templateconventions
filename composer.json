@@ -1,0 +1,19 @@
+{
+    "name": "zaengle/templates",
+    "autoload": {
+        "psr-4": {
+            "Zaengle\\Templates\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Templates",
+            "description": "Templates addon"
+        },
+        "laravel": {
+            "providers": [
+                "Zaengle\\Templates\\ServiceProvider"
+            ]
+        }
+    }
+}
