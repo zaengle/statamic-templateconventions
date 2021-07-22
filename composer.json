@@ -1,5 +1,5 @@
 {
-    "name": "zaengle/templates",
+    "name": "zaengle/statamic-templateconventions",
     "autoload": {
         "psr-4": {
             "Zaengle\\Templates\\": "src"
