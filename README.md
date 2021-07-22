@@ -13,6 +13,8 @@ You can install this package via composer using:
 The package will automatically register itself.
 
 ## Usage
+Our tags pair nicely with Statamic's `{{ partial:{path/to/partial} }}` tag. They allow for more semantic, explicit inclusion of templates.
+
 Each tag accepts a wildcard path to the given template. Any number of params may be passed as part of the tag.
 
 ```
